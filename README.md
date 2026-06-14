@@ -9,7 +9,7 @@
 
 ## Cara Menjalankan
 
-**1. Install dependencies:**
+**1. Install library:**
 ```bash
 pip install numpy scipy matplotlib
 ```
