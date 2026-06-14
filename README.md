@@ -1,4 +1,4 @@
-# Tugas Metode Numerik — Bab 11: Special Matrices & Gauss-Seidel
+# Tugas Metode Numerik - Bab 11: Special Matrices & Gauss-Seidel
 
 > **Nama:** Faiq Muhammad  
 > **NIM:** F5512510001  
@@ -34,7 +34,7 @@ Linux / Mac:
 for f in soal11_*.py; do python "$f"; done
 ```
 
-**Catatan:** Soal 11.14, 11.17, 11.19, 11.20, 11.23, dan 11.27 akan menghasilkan file gambar `.png` di folder yang sama.
+
 
 ---
 
@@ -48,7 +48,20 @@ for f in soal11_*.py; do python "$f"; done
 
 ---
 
-## Soal 11.1 — Thomas Algorithm untuk Sistem Tridiagonal
+## File yang Dihasilkan Setelah Run
+
+| File | Keterangan |
+|------|------------|
+| `soal11_14_fig115.png` | Grafik jalur iterasi Gauss-Seidel yang berosilasi (slope +1 dan -1) |
+| `soal11_17_nonlinear.png` | Grafik kurva sistem nonlinear dan peta basin of attraction |
+| `soal11_19_hilbert.png` | Grafik error per komponen dan condition number Hilbert matrix |
+| `soal11_20_vandermonde.png` | Grafik perbandingan condition number Vandermonde vs Hilbert |
+| `soal11_23_operations.png` | Grafik perbandingan jumlah operasi Thomas Algorithm vs Gauss Elimination |
+| `soal11_27_concentration.png` | Grafik profil konsentrasi solusi numerik vs analitik |
+
+---
+
+## Soal 11.1 - Thomas Algorithm untuk Sistem Tridiagonal
 
 **File:** `soal11_1.py`
 
@@ -71,7 +84,7 @@ Menyelesaikan sistem tridiagonal 4×4 dari Example 11.1 menggunakan Thomas Algor
 
 ---
 
-## Soal 11.2 — Invers Matriks via LU Decomposition
+## Soal 11.2 - Invers Matriks via LU Decomposition
 
 **File:** `soal11_2.py`
 
@@ -95,7 +108,7 @@ Verifikasi A · A⁻¹ = I  ✓  (max error = 5.55e-17)
 
 ---
 
-## Soal 11.3 — Crank-Nicolson Tridiagonal
+## Soal 11.3 - Crank-Nicolson Tridiagonal
 
 **File:** `soal11_3.py`
 
@@ -112,7 +125,7 @@ T_5 = 163.034190
 
 ---
 
-## Soal 11.4 — Verifikasi Cholesky Decomposition
+## Soal 11.4 - Verifikasi Cholesky Decomposition
 
 **File:** `soal11_4.py`
 
@@ -134,7 +147,7 @@ Verifikasi L · Lᵀ = A  ✓  (max error = 8.88e-16)
 
 ---
 
-## Soal 11.5 — Cholesky untuk Sistem Simetris
+## Soal 11.5 - Cholesky untuk Sistem Simetris
 
 **File:** `soal11_5.py`
 
@@ -149,7 +162,7 @@ Melakukan Cholesky decomposition pada sistem simetris 3×3, lalu menyelesaikan A
 
 ---
 
-## Soal 11.6 — Cholesky Decomposition Manual
+## Soal 11.6 - Cholesky Decomposition Manual
 
 **File:** `soal11_6.py`
 
@@ -171,7 +184,7 @@ Verifikasi L · Lᵀ = A  ✓  (max error = 0.0)
 
 ---
 
-## Soal 11.7 — Cholesky + Verifikasi Persamaan (11.3) & (11.4)
+## Soal 11.7 - Cholesky + Verifikasi Persamaan (11.3) & (11.4)
 
 **File:** `soal11_7.py`
 
@@ -195,7 +208,7 @@ Rekonstruksi L · Lᵀ = A  ✓  (max error = 4.44e-16)
 
 ---
 
-## Soal 11.8 — Gauss-Seidel + Overrelaxation (λ=1.2)
+## Soal 11.8 - Gauss-Seidel + Overrelaxation (λ=1.2)
 
 **File:** `soal11_8.py`
 
@@ -213,7 +226,7 @@ Overrelaxation λ=1.2 lebih cepat 2 iterasi.
 
 ---
 
-## Soal 11.9 — Gauss-Seidel: Reaktor Tersambung
+## Soal 11.9 - Gauss-Seidel: Reaktor Tersambung
 
 **File:** `soal11_9.py`
 
@@ -235,7 +248,20 @@ c1 = 319.33 g/m³,  c2 = 226.54 g/m³,  c3 = 321.15 g/m³
 
 ---
 
-## Soal 11.10 — Jacobi Iteration
+## File yang Dihasilkan Setelah Run
+
+| File | Keterangan |
+|------|------------|
+| `soal11_14_fig115.png` | Grafik jalur iterasi Gauss-Seidel yang berosilasi (slope +1 dan -1) |
+| `soal11_17_nonlinear.png` | Grafik kurva sistem nonlinear dan peta basin of attraction |
+| `soal11_19_hilbert.png` | Grafik error per komponen dan condition number Hilbert matrix |
+| `soal11_20_vandermonde.png` | Grafik perbandingan condition number Vandermonde vs Hilbert |
+| `soal11_23_operations.png` | Grafik perbandingan jumlah operasi Thomas Algorithm vs Gauss Elimination |
+| `soal11_27_concentration.png` | Grafik profil konsentrasi solusi numerik vs analitik |
+
+---
+
+## Soal 11.10 - Jacobi Iteration
 
 **File:** `soal11_10.py`
 
@@ -255,7 +281,20 @@ Gauss-Seidel lebih akurat dengan jumlah iterasi yang sama.
 
 ---
 
-## Soal 11.11 — Gauss-Seidel hingga es < 5%
+## File yang Dihasilkan Setelah Run
+
+| File | Keterangan |
+|------|------------|
+| `soal11_14_fig115.png` | Grafik jalur iterasi Gauss-Seidel yang berosilasi (slope +1 dan -1) |
+| `soal11_17_nonlinear.png` | Grafik kurva sistem nonlinear dan peta basin of attraction |
+| `soal11_19_hilbert.png` | Grafik error per komponen dan condition number Hilbert matrix |
+| `soal11_20_vandermonde.png` | Grafik perbandingan condition number Vandermonde vs Hilbert |
+| `soal11_23_operations.png` | Grafik perbandingan jumlah operasi Thomas Algorithm vs Gauss Elimination |
+| `soal11_27_concentration.png` | Grafik profil konsentrasi solusi numerik vs analitik |
+
+---
+
+## Soal 11.11 - Gauss-Seidel hingga es < 5%
 
 **File:** `soal11_11.py`
 
@@ -275,7 +314,20 @@ x1 = 0.8552,  x2 = -6.5216,  x3 = -5.4333
 
 ---
 
-## Soal 11.12 — Gauss-Seidel + Underrelaxation (λ=0.95)
+## File yang Dihasilkan Setelah Run
+
+| File | Keterangan |
+|------|------------|
+| `soal11_14_fig115.png` | Grafik jalur iterasi Gauss-Seidel yang berosilasi (slope +1 dan -1) |
+| `soal11_17_nonlinear.png` | Grafik kurva sistem nonlinear dan peta basin of attraction |
+| `soal11_19_hilbert.png` | Grafik error per komponen dan condition number Hilbert matrix |
+| `soal11_20_vandermonde.png` | Grafik perbandingan condition number Vandermonde vs Hilbert |
+| `soal11_23_operations.png` | Grafik perbandingan jumlah operasi Thomas Algorithm vs Gauss Elimination |
+| `soal11_27_concentration.png` | Grafik profil konsentrasi solusi numerik vs analitik |
+
+---
+
+## Soal 11.12 - Gauss-Seidel + Underrelaxation (λ=0.95)
 
 **File:** `soal11_12.py`
 
@@ -296,7 +348,20 @@ Sistem awalnya tidak diagonally dominant sehingga baris harus ditukar sebelum it
 
 ---
 
-## Soal 11.13 — Gauss-Seidel + Overrelaxation (λ=1.2)
+## File yang Dihasilkan Setelah Run
+
+| File | Keterangan |
+|------|------------|
+| `soal11_14_fig115.png` | Grafik jalur iterasi Gauss-Seidel yang berosilasi (slope +1 dan -1) |
+| `soal11_17_nonlinear.png` | Grafik kurva sistem nonlinear dan peta basin of attraction |
+| `soal11_19_hilbert.png` | Grafik error per komponen dan condition number Hilbert matrix |
+| `soal11_20_vandermonde.png` | Grafik perbandingan condition number Vandermonde vs Hilbert |
+| `soal11_23_operations.png` | Grafik perbandingan jumlah operasi Thomas Algorithm vs Gauss Elimination |
+| `soal11_27_concentration.png` | Grafik profil konsentrasi solusi numerik vs analitik |
+
+---
+
+## Soal 11.13 - Gauss-Seidel + Overrelaxation (λ=1.2)
 
 **File:** `soal11_13.py`
 
@@ -317,7 +382,20 @@ Untuk sistem ini, λ=1.0 lebih efisien dari overrelaxation.
 
 ---
 
-## Soal 11.14 — Gambar Ulang Fig. 11.5 (slope +1 dan −1)
+## File yang Dihasilkan Setelah Run
+
+| File | Keterangan |
+|------|------------|
+| `soal11_14_fig115.png` | Grafik jalur iterasi Gauss-Seidel yang berosilasi (slope +1 dan -1) |
+| `soal11_17_nonlinear.png` | Grafik kurva sistem nonlinear dan peta basin of attraction |
+| `soal11_19_hilbert.png` | Grafik error per komponen dan condition number Hilbert matrix |
+| `soal11_20_vandermonde.png` | Grafik perbandingan condition number Vandermonde vs Hilbert |
+| `soal11_23_operations.png` | Grafik perbandingan jumlah operasi Thomas Algorithm vs Gauss Elimination |
+| `soal11_27_concentration.png` | Grafik profil konsentrasi solusi numerik vs analitik |
+
+---
+
+## Soal 11.14 - Gambar Ulang Fig. 11.5 (slope +1 dan −1)
 
 **File:** `soal11_14.py`  
 **Output plot:** `soal11_14_fig115.png`
@@ -345,7 +423,20 @@ Iter 4: x1=1.0, x2=0.0  ← osilasi terus, tidak konvergen
 
 ---
 
-## Soal 11.15 — Identifikasi Set yang Tidak Konvergen
+## File yang Dihasilkan Setelah Run
+
+| File | Keterangan |
+|------|------------|
+| `soal11_14_fig115.png` | Grafik jalur iterasi Gauss-Seidel yang berosilasi (slope +1 dan -1) |
+| `soal11_17_nonlinear.png` | Grafik kurva sistem nonlinear dan peta basin of attraction |
+| `soal11_19_hilbert.png` | Grafik error per komponen dan condition number Hilbert matrix |
+| `soal11_20_vandermonde.png` | Grafik perbandingan condition number Vandermonde vs Hilbert |
+| `soal11_23_operations.png` | Grafik perbandingan jumlah operasi Thomas Algorithm vs Gauss Elimination |
+| `soal11_27_concentration.png` | Grafik profil konsentrasi solusi numerik vs analitik |
+
+---
+
+## Soal 11.15 - Identifikasi Set yang Tidak Konvergen
 
 **File:** `soal11_15.py`
 
@@ -363,7 +454,20 @@ Ketiga set tidak memenuhi syarat dominansi diagonal sehingga Gauss-Seidel tidak 
 
 ---
 
-## Soal 11.16 — Solusi, Invers, dan Condition Number
+## File yang Dihasilkan Setelah Run
+
+| File | Keterangan |
+|------|------------|
+| `soal11_14_fig115.png` | Grafik jalur iterasi Gauss-Seidel yang berosilasi (slope +1 dan -1) |
+| `soal11_17_nonlinear.png` | Grafik kurva sistem nonlinear dan peta basin of attraction |
+| `soal11_19_hilbert.png` | Grafik error per komponen dan condition number Hilbert matrix |
+| `soal11_20_vandermonde.png` | Grafik perbandingan condition number Vandermonde vs Hilbert |
+| `soal11_23_operations.png` | Grafik perbandingan jumlah operasi Thomas Algorithm vs Gauss Elimination |
+| `soal11_27_concentration.png` | Grafik profil konsentrasi solusi numerik vs analitik |
+
+---
+
+## Soal 11.16 - Solusi, Invers, dan Condition Number
 
 **File:** `soal11_16.py`
 
@@ -376,7 +480,20 @@ Untuk dua sistem (a) dan (b) dengan solusi eksak semua x = 1:
 
 ---
 
-## Soal 11.17 — Sistem Nonlinear Simultan
+## File yang Dihasilkan Setelah Run
+
+| File | Keterangan |
+|------|------------|
+| `soal11_14_fig115.png` | Grafik jalur iterasi Gauss-Seidel yang berosilasi (slope +1 dan -1) |
+| `soal11_17_nonlinear.png` | Grafik kurva sistem nonlinear dan peta basin of attraction |
+| `soal11_19_hilbert.png` | Grafik error per komponen dan condition number Hilbert matrix |
+| `soal11_20_vandermonde.png` | Grafik perbandingan condition number Vandermonde vs Hilbert |
+| `soal11_23_operations.png` | Grafik perbandingan jumlah operasi Thomas Algorithm vs Gauss Elimination |
+| `soal11_27_concentration.png` | Grafik profil konsentrasi solusi numerik vs analitik |
+
+---
+
+## Soal 11.17 - Sistem Nonlinear Simultan
 
 **File:** `soal11_17.py`  
 **Output plot:** `soal11_17_nonlinear.png`
@@ -387,7 +504,7 @@ f1: x² + y² = 10
 f2: y = x² − 2
 ```
 
-**Hasil (a) — dua pasang solusi:**
+**Hasil (a) - dua pasang solusi:**
 ```
 Solusi 1: x =  2.091,  y = 2.372
 Solusi 2: x = -2.091,  y = 2.372
@@ -397,7 +514,20 @@ Solusi 2: x = -2.091,  y = 2.372
 
 ---
 
-## Soal 11.18 — Produksi Elektronik
+## File yang Dihasilkan Setelah Run
+
+| File | Keterangan |
+|------|------------|
+| `soal11_14_fig115.png` | Grafik jalur iterasi Gauss-Seidel yang berosilasi (slope +1 dan -1) |
+| `soal11_17_nonlinear.png` | Grafik kurva sistem nonlinear dan peta basin of attraction |
+| `soal11_19_hilbert.png` | Grafik error per komponen dan condition number Hilbert matrix |
+| `soal11_20_vandermonde.png` | Grafik perbandingan condition number Vandermonde vs Hilbert |
+| `soal11_23_operations.png` | Grafik perbandingan jumlah operasi Thomas Algorithm vs Gauss Elimination |
+| `soal11_27_concentration.png` | Grafik profil konsentrasi solusi numerik vs analitik |
+
+---
+
+## Soal 11.18 - Produksi Elektronik
 
 **File:** `soal11_18.py`
 
@@ -418,12 +548,25 @@ Verifikasi: semua material terpakai tepat sesuai ketersediaan ✓
 
 ---
 
-## Soal 11.19 — Hilbert Matrix 10 Dimensi
+## File yang Dihasilkan Setelah Run
+
+| File | Keterangan |
+|------|------------|
+| `soal11_14_fig115.png` | Grafik jalur iterasi Gauss-Seidel yang berosilasi (slope +1 dan -1) |
+| `soal11_17_nonlinear.png` | Grafik kurva sistem nonlinear dan peta basin of attraction |
+| `soal11_19_hilbert.png` | Grafik error per komponen dan condition number Hilbert matrix |
+| `soal11_20_vandermonde.png` | Grafik perbandingan condition number Vandermonde vs Hilbert |
+| `soal11_23_operations.png` | Grafik perbandingan jumlah operasi Thomas Algorithm vs Gauss Elimination |
+| `soal11_27_concentration.png` | Grafik profil konsentrasi solusi numerik vs analitik |
+
+---
+
+## Soal 11.19 - Hilbert Matrix 10 Dimensi
 
 **File:** `soal11_19.py`  
 **Output plot:** `soal11_19_hilbert.png`
 
-`H[i,j] = 1/(i+j+1)` — contoh klasik matriks sangat ill-conditioned.
+`H[i,j] = 1/(i+j+1)` - contoh klasik matriks sangat ill-conditioned.
 
 **Hasil:**
 ```
@@ -436,7 +579,7 @@ Untuk n=10, hampir semua presisi numerik habis karena ill-conditioning.
 
 ---
 
-## Soal 11.20 — Vandermonde Matrix 6 Dimensi
+## Soal 11.20 - Vandermonde Matrix 6 Dimensi
 
 **File:** `soal11_20.py`  
 **Output plot:** `soal11_20_vandermonde.png`
@@ -452,9 +595,9 @@ Vandermonde 6×6 lebih baik dari Hilbert 10×10 tetapi tetap ill-conditioned.
 
 ---
 
-## Soal 11.21 — Augmentasi Matriks [A | I]
+## Soal 11.21 - Augmentasi Matriks [A | I]
 
-> **Soal ini bersifat deskriptif — hanya minta satu baris perintah MATLAB.**
+> **Soal ini bersifat deskriptif - hanya minta satu baris perintah MATLAB.**
 
 **Pertanyaan:** Tulis satu baris perintah MATLAB yang membuat matriks `Aug = [A | I]`.
 
@@ -478,7 +621,7 @@ Matriks augmentasi ini berguna untuk menghitung A⁻¹ via eliminasi Gauss-Jorda
 
 ---
 
-## Soal 11.22 — Bentuk Matriks, Transpose, Invers
+## Soal 11.22 - Bentuk Matriks, Transpose, Invers
 
 **File:** `soal11_22.py`
 
@@ -497,7 +640,7 @@ Matriks augmentasi ini berguna untuk menghitung A⁻¹ via eliminasi Gauss-Jorda
 
 ---
 
-## Soal 11.23 — Analisis Operasi: Thomas vs Gauss Elimination
+## Soal 11.23 - Analisis Operasi: Thomas vs Gauss Elimination
 
 **File:** `soal11_23.py`  
 **Output plot:** `soal11_23_operations.png`
@@ -517,7 +660,7 @@ Keunggulan Thomas makin besar seiring n meningkat karena kompleksitas O(n) vs O(
 
 ---
 
-## Soal 11.24 — Program Thomas Algorithm (User-Friendly)
+## Soal 11.24 - Program Thomas Algorithm (User-Friendly)
 
 **File:** `soal11_24.py`
 
@@ -532,7 +675,7 @@ Max error vs numpy: 0.00e+00  ✓
 
 ---
 
-## Soal 11.25 — Program Cholesky Decomposition (User-Friendly)
+## Soal 11.25 - Program Cholesky Decomposition (User-Friendly)
 
 **File:** `soal11_25.py`
 
@@ -551,7 +694,7 @@ Max error: 2.27e-13  ✓
 
 ---
 
-## Soal 11.26 — Program Gauss-Seidel (User-Friendly)
+## Soal 11.26 - Program Gauss-Seidel (User-Friendly)
 
 **File:** `soal11_26.py`
 
@@ -567,7 +710,7 @@ x1 ≈ 3.0,  x2 ≈ -2.5,  x3 ≈ 7.0  ✓
 
 ---
 
-## Soal 11.27 — PDE 1D: Diffusi-Konveksi-Reaksi
+## Soal 11.27 - PDE 1D: Diffusi-Konveksi-Reaksi
 
 **File:** `soal11_27.py`  
 **Output plot:** `soal11_27_concentration.png`
@@ -596,7 +739,7 @@ Plot dibandingkan dengan solusi analitik.
 
 ---
 
-## Soal 11.28 — Pentadiagonal Solver
+## Soal 11.28 - Pentadiagonal Solver
 
 **File:** `soal11_28.py`
 
@@ -636,9 +779,9 @@ Algoritma ini mirip Thomas Algorithm tetapi menangani dua diagonal di setiap sis
 | 11.4–11.7, 11.25 | Cholesky Decomposition | O(n³/3) |
 | 11.8–11.13, 11.26 | Gauss-Seidel / SOR | O(kn²) |
 | 11.10 | Jacobi Iteration | O(kn²) |
-| 11.16, 11.19–11.20 | Condition Number Analysis | — |
-| 11.17 | Nonlinear System (scipy.fsolve) | — |
-| 11.23 | Operation Count Analysis | — |
+| 11.16, 11.19–11.20 | Condition Number Analysis | - |
+| 11.17 | Nonlinear System (scipy.fsolve) | - |
+| 11.23 | Operation Count Analysis | - |
 | 11.27 | Finite Difference (PDE) | O(n) tridiagonal |
 | 11.28 | Pentadiagonal Solver | O(n) |
 
