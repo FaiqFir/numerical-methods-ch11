@@ -9,12 +9,12 @@
 
 ## Cara Menjalankan
 
-**1. Install library:**
+**Install library:**
 ```bash
 pip install numpy scipy matplotlib
 ```
 
-**2. Jalankan satu soal:**
+**Jalankan satu soal:**
 ```bash
 python soal11_1.py
 python soal11_2.py
@@ -22,7 +22,7 @@ python soal11_3.py
 # dst, ganti nomornya sesuai soal yang ingin dijalankan
 ```
 
-**3. Jalankan semua sekaligus:**
+**Jalankan semua sekaligus:**
 
 Windows (Command Prompt):
 ```bat
