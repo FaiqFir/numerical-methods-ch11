@@ -779,9 +779,9 @@ Algoritma ini mirip Thomas Algorithm tetapi menangani dua diagonal di setiap sis
 | 11.4–11.7, 11.25 | Cholesky Decomposition | O(n³/3) |
 | 11.8–11.13, 11.26 | Gauss-Seidel / SOR | O(kn²) |
 | 11.10 | Jacobi Iteration | O(kn²) |
-| 11.16, 11.19–11.20 | Condition Number Analysis | - |
-| 11.17 | Nonlinear System (scipy.fsolve) | - |
-| 11.23 | Operation Count Analysis | - |
+| 11.16, 11.19-11.20 | Condition Number Analysis | Tergantung ukuran matriks |
+| 11.17 | Nonlinear System (scipy.fsolve) | Tergantung konvergensi |
+| 11.23 | Operation Count Analysis | Analisis teoritis |
 | 11.27 | Finite Difference (PDE) | O(n) tridiagonal |
 | 11.28 | Pentadiagonal Solver | O(n) |
 
